@@ -1,0 +1,5 @@
+n = str(input('Seu nome: '))
+print(n.upper())
+print(n.lower())
+print(len(n.replace(' ','').strip()))
+print(len(n.split()[0]))
