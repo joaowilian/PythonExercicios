@@ -1,4 +1,6 @@
 lista = list()
+par = []
+impar =[]
 print('Digite -1 para sair')
 print('-='*10)
 while True:
