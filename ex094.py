@@ -42,7 +42,3 @@ for x in plista:
 
 print('<< ENCERRADO >>')
 
-# print('\n\n')
-# print(plista)
-# print(pessoa)
-# print(pessoa.items())
