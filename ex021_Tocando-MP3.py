@@ -1,5 +1,5 @@
 import pygame
-pygame.mixer.init()
-pygame.mixer.music.load('fun.mp3')
-pygame.mixer.music.play(start=200)# tempo em segundos
-input()
+pygame.init() # inicia o pygame
+pygame.mixer.music.load('ex021.mp3')
+pygame.mixer.music.play(start=10)# tempo em segundos que começa
+input() # inicia o mixer
