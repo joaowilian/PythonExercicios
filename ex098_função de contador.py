@@ -22,7 +22,6 @@ def contator(inicio, fim, passo):
 
 
 
-
 print('-=' * 20)
 contator(1,10,1)
 

@@ -5,7 +5,7 @@ def maior(*num):
     print('-='*20)
     print('Analisando os valores passados....')
     for x in num:
-        print(f'{x}',end=' ',flush=True)
+        print(f'{x}',end=' ')
         cont += 1
         sleep(0.5)
     print(f'\nForam informados {len(num)} valores ao todo.')
@@ -14,4 +14,4 @@ def maior(*num):
 
 maior(2,5,83,1,8)
 maior(1,2)
-maior(1,5,6,5,5,5,8,4,2,3)
+maior(1,5,6,5,5,8,2,3)
