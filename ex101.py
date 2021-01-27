@@ -1,19 +1,15 @@
-from time import sleep
+from datetime import date
 
 
-def contador(i,f,p):
-    """
-    :param i:er
-    :param f:er
-    :param p:er
-    :return: sser
-    """
+def voto(n):
+    idade = int((date.today().year) - n)
+    if idade >= 65:
+        print(f'Com {idade} ano: VOTO OPICIONAL')
+    elif idade >= 18:
+        print(f'Com {idade} ano: VOTO OBRIGATORIO')
+    else:
+        print(f'Com {idade} ano: NÂO VOTA')
 
-    c = i
-    while c <= f:
-        print(f'{c}',end=' ')
-        c += p
-        sleep(0.2)
-    print('FIM!')
 
-help(contador)
+ano = int(input(f'Em que ano vc nasceu ?'))
+voto(ano)
