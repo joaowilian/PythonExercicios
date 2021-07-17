@@ -11,5 +11,5 @@ def voto(n):
         print(f'Com {idade} ano: NÂO VOTA')
 
 
-ano = int(input(f'Em que ano vc nasceu ?'))
+ano = int(input(f'Em que ano você nasceu ?'))
 voto(ano)
