@@ -1,3 +1,4 @@
+
 from datetime import date
 a = int(input('Data de nascimento: '))
 id = date.today().year - a

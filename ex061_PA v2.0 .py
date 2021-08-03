@@ -1,5 +1,5 @@
 primeiro = int(input('Primeiro Termo: '))
-razao = int(input('Razão: '))
+razao = int(input('Razão da PA: '))
 print('-=-' * 20)
 c = 1
 while c <= 10:
@@ -7,4 +7,4 @@ while c <= 10:
     primeiro += razao
     c +=1
 print('Acabou')
-print('=-=' * 20)
+print('-=-' * 20)
