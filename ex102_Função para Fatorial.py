@@ -21,7 +21,7 @@ def fatorial(f, show = True):
 
 if __name__ == '__main__':  #executa se for chamado pelo mesmo nome
 
-    #n = int(input('Diga um valor: '))
-    #print(f'Fatorial de {n} é {fatorial(n)}')
+    n = int(input('Diga um valor: '))
+    # print(f'Fatorial de {n} é {fatorial(n)}')
     help(fatorial)
-    print(fatorial(5,show = True))
+    print(fatorial(n,True))
