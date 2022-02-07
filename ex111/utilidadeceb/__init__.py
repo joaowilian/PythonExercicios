@@ -1,0 +1,1 @@
+from ex111.utilidadeceb import moeda, dado
