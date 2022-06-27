@@ -1,4 +1,4 @@
-from ex112.utilidadeceb import moeda, dado
+from ex112.utilidades import moeda, dado
 
 
 p = dado.leiaDinheiro('Digite o preço: R$')

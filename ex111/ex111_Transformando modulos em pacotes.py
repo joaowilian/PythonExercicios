@@ -1,4 +1,4 @@
-from ex111.utilidadeceb import moeda
+from ex111.utilidades import moeda
 
 p = float(input('Digite o preço: R$'))
 
